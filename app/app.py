@@ -63,7 +63,7 @@ elif page == "📊 Raster data analysis":
     st.title("Raster Data Analysis – Zonal Statistics")
 
     st.subheader("Distribución de Tmin por distrito")
-    st.image(histogram_path, caption="Histograma de Tmin", use_column_width=True)
+    st.image(histogram_path, caption="Histograma de Tmin", use_container_width=True)
 
     st.subheader("Top 15 distritos más fríos")
     st.dataframe(top_cold)
@@ -84,7 +84,7 @@ elif page == "📊 Raster data analysis":
     )
 
     st.subheader("Mapa cloroplético de Tmin por distrito")
-    st.image(map_path, caption="Mapa Tmin por distrito (PNG)", use_column_width=True)
+    st.image(map_path, caption="Mapa Tmin por distrito (PNG)", use_container_width=True)
 
 # -----------------------------------------------------
 # 3. Public policy proposals
