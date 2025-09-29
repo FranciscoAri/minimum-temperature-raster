@@ -123,6 +123,5 @@ elif page == "🏛️ Public policy proposals":
        - **KPI:** +15% de adopción de calendarios climáticamente inteligentes.
     """)
 
-    st.info("💡 Estas propuestas son ejemplos y deben ser ajustadas con datos reales de población y costos.")
 
 
