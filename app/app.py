@@ -125,8 +125,4 @@ elif page == "🏛️ Public policy proposals":
 
     st.info("💡 Estas propuestas son ejemplos y deben ser ajustadas con datos reales de población y costos.")
 
-# -----------------------------------------------------
-# Footer
-# -----------------------------------------------------
-st.sidebar.markdown("---")
-st.sidebar.markdown("Desarrollado para la tarea de Python Data Science")
+
